@@ -70,3 +70,24 @@ h1.name {
 .nav-links li a:hover {
     background-color: #2f2f2f;
 }
+
+/* POSTCARDS */
+.board {
+    width: 100%;
+    height: auto;
+}
+
+.postcards {
+    margin: auto;
+    width: 90vw;
+    height: 90vh;
+    background-color: #2f2f2f;
+}
+
+.postcard {
+    width: 82vw;
+    height: 40vh;
+    background-color: #3a3a3a;
+}
+
+/* fix this you dunce */
