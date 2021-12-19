@@ -28,6 +28,10 @@ body::-webkit-scrollbar {
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
+ul {
+    list-style: none;
+}
+
 
 /* NAVIGATION BAR */
 nav {
@@ -54,23 +58,20 @@ h1.name {
     justify-content: space-evenly;
 }
 
-.nav-links li {
+.nav-links li a {
     padding: 8px 16px 8px 16px;
     border-radius: 50px;
-    transition: 0.3s ease-in-out;
-}
-
-.nav-links li:hover {
-    background-color: #2f2f2f;
-}
-
-.nav-links li a {
     font-size: 20px;
     text-transform: capitalize;
     color: #f7f7f6;
+    transition: 0.3s ease-in-out;
 }
 
-/* GITHUB */
+.nav-links li a:hover {
+    background-color: #2f2f2f;
+}
+
+/* COMING SOON */
 .coming-soon {
     width: 100vw;
     height: 100vh;
@@ -98,6 +99,3 @@ h1.coming-soon-text {
     text-align: center;
 }
 
-ul {
-    list-style: none;
-}
