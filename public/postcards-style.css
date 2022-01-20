@@ -70,51 +70,46 @@ h1.name {
     background-color: #2f2f2f;
 }
 
-/* GITHUB */
-.source-code {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* POSTCARDS */
+.postcards {
+    margin: auto;
+    margin-top: 5vh;
+    width: 75vw;
+    padding: 5vh 2vw 7vh 2vw;
+    border-radius: 35px;
+    background-color: #2f2f2f;
 }
 
-.source-code-sign {
-    width: auto;
-    max-width: 60vw;
-    height: auto;
-    background-color: #555555;
-    padding: 50px;
-    border-radius: 50px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-h1.source-code-text {
-    text-transform: capitalize;
-    line-height: 100px;
-    font-size: 50px;
-    color: #eee;
+div.unit {
+    width: 100%;
     text-align: center;
 }
 
-h1.source-code-link {
-    text-transform: uppercase;
-    line-height: 100px;
-    font-size: 50px;
-    color: #eee;
-    text-align: center;
-    width: auto;
-    padding: 8px 16px 8px 16px;
-    border-radius: 50px;
-    transition: 0.25s ease-in-out;
+h2.unit-title {
+    color: #f7f7f6;
+    letter-spacing: 2px;
+    font-size: 35px;
 }
 
-h1.source-code-link:hover {
-    background-color: #212121;
+.outer-postcard {
+    margin: auto;
+    margin-top: 5vh;
+    width: 90%;
+    border-radius: 12px;
+    background-color: #eeeeee;
 }
 
-a.source-code-link {
-    width: 0px;
-    height: 0px;
+.inner-postcard {
+    margin: auto;
+    height: 600px;
+    padding: 15px;
+}
+
+p {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    text-decoration-style: solid;
+    color: #53565B;
 }
