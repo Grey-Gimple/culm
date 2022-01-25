@@ -101,15 +101,41 @@ h2.unit-title {
 
 .inner-postcard {
     margin: auto;
-    height: 600px;
+    min-height: 600px;
     padding: 15px;
+    display: flex;
+}
+
+.first-half {
+    width: 50%;
+}
+
+.separator {
+    border-left: 2px solid #2f2f2f;
+    margin-right: 10px;
+}
+
+.second-half {
+    width: 50%;
+}
+
+.stamp {
+    border: solid 5px #2f2f2f;
+    width: 25%;
+    height: 30%;
+    margin-right: 0px;
+    margin-left: 75%;
 }
 
 p {
+    margin-right: 10px;
+    margin-left: 10px;
     font-family: 'Just Another Hand', cursive;
-    font-size: 30px;
+    font-size: 1.6vw;
     text-decoration: underline;
     text-decoration-color: #000000;
     text-decoration-style: solid;
     color: #53565B;
+    text-align: justify;
+    text-justify: inter-word;
 }
