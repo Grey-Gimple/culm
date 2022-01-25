@@ -101,7 +101,7 @@ h2.unit-title {
 
 .inner-postcard {
     margin: auto;
-    height: 600px;
+    min-height: 600px;
     padding: 15px;
     display: flex;
 }
@@ -112,7 +112,6 @@ h2.unit-title {
 
 .separator {
     border-left: 2px solid #2f2f2f;
-    height: 100%;
     margin-right: 10px;
 }
 
@@ -129,10 +128,14 @@ h2.unit-title {
 }
 
 p {
+    margin-right: 10px;
+    margin-left: 10px;
     font-family: 'Just Another Hand', cursive;
-    font-size: 30px;
+    font-size: 1.6vw;
     text-decoration: underline;
     text-decoration-color: #000000;
     text-decoration-style: solid;
     color: #53565B;
+    text-align: justify;
+    text-justify: inter-word;
 }
