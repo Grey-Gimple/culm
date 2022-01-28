@@ -71,7 +71,7 @@ h1.name {
 }
 
 /* COMING SOON */
-.coming-soon {
+.main {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -79,7 +79,7 @@ h1.name {
     align-items: center;
 }
 
-.coming-soon-sign {
+.main-sign {
     width: auto;
     max-width: 60vw;
     height: auto;
@@ -90,7 +90,7 @@ h1.name {
     margin-bottom: auto;
 }
 
-h1.coming-soon-text {
+h1.main-text {
     text-transform: capitalize;
     line-height: 100px;
     font-size: 50px;
