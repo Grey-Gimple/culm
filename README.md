@@ -1,6 +1,6 @@
 # Grade 11 Religion Culminating Postcards Assignment
 
-### written in HTML, CSS, and JS
+### written in HTML and CSS
 
 ### created by Grey Gimple
 
